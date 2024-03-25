@@ -1,3 +1,25 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Techgenics
+theme: PaperMod
+
+params:
+  defaultTheme: dark
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >-
+      Welcome to my website, it is currently under development and most functionality is disabled   
+  socialIcons:
+    - name: email
+      url: 'mailto:some@emailadres.com'
+
+menu:
+  main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
+  - identifier: posts
+    name: Blog
+    url: /posts/
+    weight: 20
