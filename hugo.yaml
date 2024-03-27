@@ -1,19 +1,29 @@
 baseURL: https://blog.wifigenics.com
-canonifyurls: true
-relativeURLs: false
 languageCode: en-us
 title: Techgenics
 theme: PaperMod
+canonifyurls: true
+relativeURLs: false
 
 params:
   defaultTheme: dark
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >-
-      Welcome to my website, it is currently under development and most functionality is disabled   
+      Welcome to my website.
   socialIcons:
     - name: email
-      url: 'mailto:some@emailadres.com'
+      url: 'mailto:avian@wifigenics.com'
+
+assets:
+  favicon16x16: /assets/favicon-16x16.png
+  favicon32x32: /assets/favicon-32x32.png
+  apple_touch_icon: /assets/apple-touch-icon.png
+
+favicon: favicon.ico
+
+
+
 
 menu:
   main:
